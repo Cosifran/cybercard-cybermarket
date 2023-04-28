@@ -1,0 +1,126 @@
+.mi-input::-webkit-input-placeholder {
+  color: #adb5bd;
+}
+
+.border-circular {
+  border-radius: 100%;
+}
+
+.colorinput {
+  color: #adb5bd;
+}
+
+.bgmain {
+  background-color: #F9F9F9;
+}
+
+.bgsecundario {
+  background-color: #EEEEEE;
+}
+
+.grissecundario {
+  color: #6F6F6F;
+}
+
+.grissubtitulos {
+  color: #787878;
+}
+
+a {
+  color: transparent !important;
+}
+
+.bacgroundsecundario {
+  background-color: #EEEEEE;
+}
+
+.colorprimary {
+  color: hsl(0, 100%, 50%);
+}
+
+.bgred {
+  background-color: hsl(0, 100%, 50%) !important;
+}
+
+.justifytext {
+  text-align: justify;
+}
+
+.fontsmall {
+  font-size: 0.625rem !important;
+}
+
+.font-medium {
+  font-size: 1.125rem !important;
+}
+
+.fontsnormalsmall {
+  font-size: 0.875rem;
+}
+
+.fontverysmall {
+  font-size: 0.75rem;
+}
+
+.t-fs-g {
+  font-size: 4rem;
+}
+
+.posicion_body {
+  position: absolute;
+  top: 90%;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slidedos {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,90 @@
+$color-main: hsl(0, 100%, 50%);
+$color-input: #adb5bd;
+$color-sec: #EEEEEE;
+$bacgraund-main: #F9F9F9;
+$color-gris: #787878;
+$color-secun-gris: #6F6F6F;
+$font-6: 0.625rem;
+$fon-5: 0.875rem;
+$fon-4: 1.125rem;
+$fon-7: 0.75rem;
+
+.mi-input::-webkit-input-placeholder { 
+    color: $color-input;
+}
+
+.border-circular{
+    border-radius: 100%;
+}
+
+.colorinput{
+    color: $color-input;
+}
+
+.bgmain{
+    background-color: #F9F9F9;
+}
+
+.bgsecundario{
+    background-color: $color-sec;
+}
+
+.grissecundario{
+    color: $color-secun-gris;
+}
+
+.grissubtitulos{
+    color: $color-gris;
+}
+a{
+    color: transparent !important;
+}
+
+.bacgroundsecundario{
+    background-color: $color-sec;
+}
+
+.colorprimary{
+    color: $color-main;
+}
+
+.bgred{
+    background-color: $color-main !important;
+}
+
+.justifytext{
+    text-align: justify;
+}
+
+.fontsmall{
+    font-size: $font-6 !important;
+}
+
+.font-medium{
+    font-size: $fon-4 !important;
+}
+
+.fontsnormalsmall{
+    font-size: $fon-5;
+}
+
+.fontverysmall{
+    font-size: $fon-7;
+}
+.t-fs-g {
+    font-size: 4rem;
+}
+
+.posicion_body{
+    position: absolute;
+    top:90%
+}
+
+//posision
+
+.position{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
