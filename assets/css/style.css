@@ -101,7 +101,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #eee !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +110,7 @@ body {
 .swiper-slidedos {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #eee;
   display: flex;
   justify-content: center;
   align-items: center;
