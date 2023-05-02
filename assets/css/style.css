@@ -1,3 +1,9 @@
+/*  Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
 .mi-input::-webkit-input-placeholder {
   color: #adb5bd;
 }
@@ -36,6 +42,10 @@ a {
 
 .colorprimary {
   color: hsl(0, 100%, 50%);
+}
+
+.textcolorpurpura {
+  color: rgb(160, 7, 98);
 }
 
 .bgred {
@@ -85,7 +95,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: #F9F9F9;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -101,7 +111,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #eee !important;
+  background: #F9F9F9 !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +120,7 @@ body {
 .swiper-slidedos {
   text-align: center;
   font-size: 18px;
-  background: #eee;
+  background: #F9F9F9;
   display: flex;
   justify-content: center;
   align-items: center;

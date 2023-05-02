@@ -6,15 +6,15 @@ navigation: {
         prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-    640: {
-      slidesPerView: 2,
+    992: {
+      slidesPerView: 5,
       spaceBetween: 20,
     },
-    768: {
-      slidesPerView: 4,
+    1200: {
+      slidesPerView: 5,
       spaceBetween: 40,
     },
-    1024: {
+    1400: {
       slidesPerView: 5,
       spaceBetween:  120,
     },
@@ -29,17 +29,45 @@ navigation: {
         prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-    640: {
-      slidesPerView: 2,
+    768: {
+      slidesPerView: 1,
       spaceBetween: 20,
     },
-    768: {
+    992: {
       slidesPerView: 2,
       spaceBetween: 40,
     },
-    1024: {
+    1200: {
       slidesPerView: 3,
       spaceBetween: 50,
+    },
+    1400: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  },
+});
+
+//search script
+var swiper = new Swiper(".searchCategory", {
+  slidesPerView: 4,
+  spaceBetween: 10,
+navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    992: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 5,
+      spaceBetween: 40,
+    },
+    1400: {
+      slidesPerView: 5,
+      spaceBetween:  120,
     },
   },
 });
