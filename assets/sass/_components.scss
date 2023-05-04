@@ -44,3 +44,20 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+//focus de los input
+
+.inputfoucus{
+  &:focus{
+    border-color: #86b7fe;
+    border-color: var(--bs-form-invalid-border-color);
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-danger-rgb),.25);
+    border: #FF0000 solid 1px;
+  }
+}
+
+.form-check-input:checked {
+  background-color: #FF0000;
+  border-color: #FF0000;
+}
+

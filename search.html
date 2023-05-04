@@ -67,24 +67,22 @@
                         </div>
                     </div>
 
-                    <div class="col col-md-3">
-                        <div class="card border-0 shadow-sm p-2 rounded-5">
+                    <div class="col col-md-2">
+                        <div class="card border-0 shadow-sm rounded-5">
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col col-md-12">
                                         <p class="tertiary-titles fw-bold">Precios</p>
                                         <div class="mb-2">
-                                            <label for="min"
-                                                class="form-label primary-span fw-bold m-0">min.</label>
-                                            <input type="number" class="form-control primary-span" id="min"
-                                                placeholder="COP 20.000">
+                                            <label for="min" class="form-label primary-span fw-bold m-0">min.</label>
+                                            <input type="number"
+                                                class="form-control primary-span form-control-sm inputfoucus" id="min">
                                         </div>
 
                                         <div>
-                                            <label for="max"
-                                                class="form-label primary-span fw-bold m-0">max.</label>
-                                            <input type="number" class="form-control primary-span" id="max"
-                                                placeholder="COP 20.000.000">
+                                            <label for="max" class="form-label primary-span fw-bold m-0">max.</label>
+                                            <input type="number"
+                                                class="form-control primary-span form-control-sm inputfoucus" id="max">
                                         </div>
                                     </div>
                                 </div>
@@ -93,170 +91,336 @@
 
                                 <div class="row">
                                     <div class="col col-md-12">
-                                        <p class="tertiary-titles fw-bold">Estrellas</p>
-                                        <p class="tertiary-titles font-monospace">
-                                            <span>
-                                                <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
-                                                        fill="#FFD337" stroke="#C2C2C2"></path>
-                                                </svg>
-
-                                            </span>
-
-                                            <span>
-                                                <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
-                                                        fill="#FFD337" stroke="#C2C2C2"></path>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
-                                                        fill="#FFD337" stroke="#C2C2C2"></path>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
-                                                        stroke="#C2C2C2"></path>
-                                                </svg>
-
-                                            </span>
-
-                                            <span>
-                                                <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path
-                                                        d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
-                                                        stroke="#C2C2C2"></path>
-                                                </svg>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <hr class="my-3">
-
-                                <div class="row">
-                                    <div class="col col-md-12">
-                                        <p class="tertiary-titles fw-bold">Plan de alimentación</p>
+                                        <p class="tertiary-titles fw-bold">Genero</p>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Desayuno
+                                            <input class="form-check-input inputcheck inputfoucus" type="checkbox"
+                                                value="" id="defaultCheck1">
+                                            <label class="form-check-label primary-span" for="defaultCheck1">
+                                                Masculino
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
+                                            <input class="form-check-input inputfoucus" type="checkbox" value=""
                                                 id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Solo habitación
+                                            <label class="form-check-label primary-span" for="defaultCheck1">
+                                                Femenino
                                             </label>
                                         </div>
 
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
+                                            <input class="form-check-input inputfoucus" type="checkbox" value=""
                                                 id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Desayuno y cena
+                                            <label class="form-check-label primary-span" for="defaultCheck1">
+                                                Niños
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
+                                            <input class="form-check-input inputfoucus" type="checkbox" value=""
                                                 id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Desayuno, almuerzo y cena
-                                            </label>
-                                        </div>
-
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Todo incluido
+                                            <label class="form-check-label primary-span" for="defaultCheck1">
+                                                Todos
                                             </label>
                                         </div>
                                     </div>
                                 </div>
 
-                                <hr class="my-3">
 
                                 <div class="row">
                                     <div class="col-md-12">
                                         <!-- Tipo de alojamiento apartado -->
-                                        <p class="tertiary-titles fw-bold">Tipo de alojamiento</p>
+                                        <p class="tertiary-titles fw-bold my-2">Descuento</p>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
+                                            <input class="form-check-input inputfoucus" type="checkbox" value=""
                                                 id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Todos los alojamientos
+                                            <label class="form-check-label primary-span" for="defaultCheck1">
+                                                50% o mas
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
+                                            <input class="form-check-input inputfoucus" type="checkbox" value=""
                                                 id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Casas
+                                            <label class="form-check-label primary-span" for="defaultCheck1">
+                                                40% o mas
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
+                                            <input class="form-check-input inputfoucus" type="checkbox" value=""
                                                 id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Aparta hoteles
+                                            <label class="form-check-label primary-span" for="defaultCheck1">
+                                                30% o mas
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
+                                            <input class="form-check-input inputfoucus" type="checkbox" value=""
                                                 id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Departamento
+                                            <label class="form-check-label primary-span" for="defaultCheck1">
+                                                20% o mas
                                             </label>
                                         </div>
 
                                         <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
+                                            <input class="form-check-input inputfoucus" type="checkbox" value=""
                                                 id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Hoteles
+                                            <label class="form-check-label primary-span" for="defaultCheck1">
+                                                10% o mas
                                             </label>
                                         </div>
+                                    </div>
+                                </div>
 
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="defaultCheck1">
-                                            <label class="form-check-label primary-span"
-                                                for="defaultCheck1">
-                                                Resorts
-                                            </label>
+                                <div class="row">
+                                    <div class="col-12 scrollsmoot">
+                                        <p class="tertiary-titles fw-bold my-2">
+                                            Sub-Categoria
+                                        </p>
+                                        <div id="detalleseleccion" name="detalleseleccion" class="scroll">
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="todosCheck">
+                                                <label class="form-check-label primary-span" for="todosCheck">
+                                                    Todos
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="banioscheck">
+                                                <label class="form-check-label primary-span" for="banioscheck">
+                                                    Baños
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="cocinayCome">
+                                                <label class="form-check-label primary-span" for="cocinayCome">
+                                                    Cocina y comedor
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="decoration">
+                                                <label class="form-check-label primary-span" for="decoration">
+                                                    Decoración
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="iluminacioninput">
+                                                <label class="form-check-label primary-span" for="iluminacioninput">
+                                                    Iluminación
+                                                </label>
+                                            </div>
                                         </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p class="tertiary-titles fw-bold my-2">
+                                            Marca
+                                        </p>
+                                        <input class="form-control me-2 inputfoucus" type="search" placeholder="Buscar marca"
+                                        aria-label="Search">
+
+                                        <div id="detalleseleccion" name="detalleseleccion" class="scroll mt-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="inputEmpresaUno">
+                                                <label class="form-check-label primary-span" for="inputEmpresaUno">
+                                                    Americanino
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="inputEmpresaDos">
+                                                <label class="form-check-label primary-span" for="inputEmpresaDos">
+                                                    Home Elements
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="inputEmpresaTres">
+                                                <label class="form-check-label primary-span" for="cocinayCome">
+                                                    Chevignon
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="inputEmpresaCuatro">
+                                                <label class="form-check-label primary-span" for="inputEmpresaCuatro">
+                                                    Puma
+                                                </label>
+                                            </div>
+
+                                            <div class="form-check">
+                                                <input class="form-check-input inputfoucus" type="checkbox" value=""
+                                                    id="inputEmpresaCinco">
+                                                <label class="form-check-label primary-span" for="inputEmpresaCinco">
+                                                    Xhobbies
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-10">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card border-0 rounded-4 ">
+                                    <img src="./assets/image/img-tarjeta.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-start mb-0 fw-bold">
+                                            Puma
+                                        </p>
+                                        <p
+                                            class="card-text text-start grissubtitulos fw-light mb-0 ">
+                                            Bolso Bandolera</p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-6 px-1">
+                                                <p
+                                                    class="text-start ps-3 fw-bold textcolorpurpura mb-1">
+                                                    COP 80.893</p>
+                                                <p class="text-start ps-3 mb-0">Publica</p>
+                                            </div>
+                                            <div class="col-6 px-1 border-start">
+                                                <p class="text-end pe-3 fw-bold colorprimary mb-1">
+                                                    COP 62.893</p>
+                                                <p class="text-end pe-3 mb-0">Afiliado</p>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+                                        <a href="#"
+                                            class="btn bgred text-white w-100 fw-bold fontsnormalsmall"
+                                            role="button" data-bs-toggle="button">Comprar</a>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border-0 rounded-4 ">
+                                    <img src="./assets/image/img-tarjeta.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-start mb-0 fw-bold">
+                                            Puma
+                                        </p>
+                                        <p
+                                            class="card-text text-start grissubtitulos fw-light mb-0 ">
+                                            Bolso Bandolera</p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-6 px-1">
+                                                <p
+                                                    class="text-start ps-3 fw-bold textcolorpurpura mb-1">
+                                                    COP 80.893</p>
+                                                <p class="text-start ps-3 mb-0">Publica</p>
+                                            </div>
+                                            <div class="col-6 px-1 border-start">
+                                                <p class="text-end pe-3 fw-bold colorprimary mb-1">
+                                                    COP 62.893</p>
+                                                <p class="text-end pe-3 mb-0">Afiliado</p>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+                                        <a href="#"
+                                            class="btn bgred text-white w-100 fw-bold fontsnormalsmall"
+                                            role="button" data-bs-toggle="button">Comprar</a>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border-0 rounded-4 ">
+                                    <img src="./assets/image/img-tarjeta.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-start mb-0 fw-bold">
+                                            Puma
+                                        </p>
+                                        <p
+                                            class="card-text text-start grissubtitulos fw-light mb-0 ">
+                                            Bolso Bandolera</p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-6 px-1">
+                                                <p
+                                                    class="text-start ps-3 fw-bold textcolorpurpura mb-1">
+                                                    COP 80.893</p>
+                                                <p class="text-start ps-3 mb-0">Publica</p>
+                                            </div>
+                                            <div class="col-6 px-1 border-start">
+                                                <p class="text-end pe-3 fw-bold colorprimary mb-1">
+                                                    COP 62.893</p>
+                                                <p class="text-end pe-3 mb-0">Afiliado</p>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+                                        <a href="#"
+                                            class="btn bgred text-white w-100 fw-bold fontsnormalsmall"
+                                            role="button" data-bs-toggle="button">Comprar</a>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="card border-0 rounded-4 ">
+                                    <img src="./assets/image/img-tarjeta.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <p class="card-title text-start mb-0 fw-bold">
+                                            Puma
+                                        </p>
+                                        <p
+                                            class="card-text text-start grissubtitulos fw-light mb-0 ">
+                                            Bolso Bandolera</p>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-6 px-1">
+                                                <p
+                                                    class="text-start ps-3 fw-bold textcolorpurpura mb-1">
+                                                    COP 80.893</p>
+                                                <p class="text-start ps-3 mb-0">Publica</p>
+                                            </div>
+                                            <div class="col-6 px-1 border-start">
+                                                <p class="text-end pe-3 fw-bold colorprimary mb-1">
+                                                    COP 62.893</p>
+                                                <p class="text-end pe-3 mb-0">Afiliado</p>
+                                            </div>
+                                        </div>
+                                        <hr>
+
+                                        <a href="#"
+                                            class="btn bgred text-white w-100 fw-bold fontsnormalsmall"
+                                            role="button" data-bs-toggle="button">Comprar</a>
+
+
                                     </div>
                                 </div>
                             </div>
@@ -265,6 +429,39 @@
                 </div>
             </section>
         </main>
+        <footer>
+            <div class="row mt-5 mx-1 mx-lg-3">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-4 d-flex justify-content-center d-none d-md-block">
+                            <img src="./assets/image/imagenflooter.png" class="img-fluid" alt="imagenflooter">
+                        </div>
+                        <div class="col-12 col-md-6 my-auto">
+                            <p class="fs-1 fw-bold text-center">DESCARGA TU APP CYBERCARD</p>
+                            <p class="text-center fw-medium">Y ENTRA EN UN MUNDO LLENO DE AHORROS Y BENEFICIOS</p>
+
+                            <div class="col-12 col-md-4 d-flex justify-content-center d-block d-md-none my-4">
+                                <img src="./assets/image/imagenflooter.png" class="img-fluid" alt="imagenflooter">
+                            </div>
+
+                            <div class="row ">
+                                <div class="col-6 d-flex justify-content-center">
+                                    <img src="./assets/image/btn-googlepaly.png" class="img-fluid" alt="btnpstore">
+                                </div>
+
+                                <div class="col-6 ">
+                                    <img src="./assets/image/btn-appstore.png" class="img-fluid" alt="btnapple">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-2 my-md-auto d-flex justify-content-center mt-5 mb-5">
+                            <img src="./assets/image/codigo-qr.png" class="img-fluid" alt="codigoqr">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 <script src="https://kit.fontawesome.com/12335c3d20.js" crossorigin="anonymous"></script>

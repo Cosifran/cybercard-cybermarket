@@ -20,6 +20,10 @@ body {
   background-color: #F9F9F9;
 }
 
+.bgredsecundary {
+  background-color: #F7E7E9;
+}
+
 .bgsecundario {
   background-color: #EEEEEE;
 }
@@ -81,6 +85,14 @@ a {
   top: 90%;
 }
 
+.scroll {
+  height: 5em;
+  line-height: 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}
+
 .position {
   display: flex;
   align-items: center;
@@ -131,6 +143,18 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.inputfoucus:focus {
+  border-color: #86b7fe;
+  border-color: var(--bs-form-invalid-border-color);
+  box-shadow: 0 0 0 0.25rem rgba(var(--bs-danger-rgb), 0.25);
+  border: #FF0000 solid 1px;
+}
+
+.form-check-input:checked {
+  background-color: #FF0000;
+  border-color: #FF0000;
 }
 
 /*# sourceMappingURL=style.css.map */
