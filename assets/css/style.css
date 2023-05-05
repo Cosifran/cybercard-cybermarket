@@ -100,6 +100,14 @@ a {
   flex-wrap: wrap;
 }
 
+.positionheigth {
+  height: 60%;
+}
+
+.bordercupon {
+  border-left: 2px dashed #FF0000;
+}
+
 html,
 body {
   position: relative;
