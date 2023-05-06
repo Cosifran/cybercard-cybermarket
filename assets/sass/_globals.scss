@@ -6,6 +6,7 @@ $color-text-sec: rgba(160, 7, 98, 1);
 $color-input: #adb5bd;
 $color-red-secundary: #F7E7E9;
 $color-sec: #EEEEEE;
+$color-nav-cupon: #E7E7E7;
 $bacgraund-main: #F9F9F9;
 $color-gris: #787878;
 $color-secun-gris: #6F6F6F;
@@ -28,6 +29,14 @@ body {
 
 .colorinput {
     color: $color-input;
+}
+
+.colorpurpura{
+    color: #9e005d;
+}
+
+.bgcuponnav{
+    background-color: $color-nav-cupon;
 }
 
 .bgmain {
@@ -115,8 +124,11 @@ a {
     flex-wrap: wrap;
 }
 
-.positionheigth{
-    height: 60%;
+
+.positioncupon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 //border

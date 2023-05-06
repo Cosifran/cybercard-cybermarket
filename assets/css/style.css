@@ -16,6 +16,14 @@ body {
   color: #adb5bd;
 }
 
+.colorpurpura {
+  color: #9e005d;
+}
+
+.bgcuponnav {
+  background-color: #E7E7E7;
+}
+
 .bgmain {
   background-color: #F9F9F9;
 }
@@ -100,8 +108,10 @@ a {
   flex-wrap: wrap;
 }
 
-.positionheigth {
-  height: 60%;
+.positioncupon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .bordercupon {
@@ -163,6 +173,35 @@ body {
 .form-check-input:checked {
   background-color: #FF0000;
   border-color: #FF0000;
+}
+
+.textocupon {
+  font-size: 1.063rem;
+  margin-top: 1.125rem !important;
+}
+@media (min-width: 992px) {
+  .textocupon {
+    font-size: 1.875rem;
+  }
+}
+
+.textocuponprecio {
+  font-size: 0.688rem;
+  margin-top: 1.5rem !important;
+}
+@media (min-width: 992px) {
+  .textocuponprecio {
+    font-size: 1rem;
+  }
+}
+
+.textocuponvalido {
+  font-size: 0.938rem;
+}
+@media (min-width: 992px) {
+  .textocuponvalido {
+    font-size: 1.125rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
