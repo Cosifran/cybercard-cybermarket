@@ -141,7 +141,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #F9F9F9 !important;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +191,7 @@ body {
 }
 @media (min-width: 992px) {
   .textocuponprecio {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -201,6 +201,16 @@ body {
 @media (min-width: 992px) {
   .textocuponvalido {
     font-size: 1.125rem;
+  }
+}
+
+.textobannercupon {
+  font-size: 1.4rem;
+  margin-top: 1.5rem !important;
+}
+@media (min-width: 768px) {
+  .textobannercupon {
+    font-size: 2rem;
   }
 }
 
