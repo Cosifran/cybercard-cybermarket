@@ -36,6 +36,10 @@ body {
   background-color: #EEEEEE;
 }
 
+.bgblue {
+  background-color: #00ABD0 !important;
+}
+
 .grissecundario {
   color: #6F6F6F;
 }
@@ -60,6 +64,10 @@ a {
   color: rgb(160, 7, 98);
 }
 
+.bacgroundpurpura {
+  background-color: rgb(160, 7, 98) !important;
+}
+
 .bgred {
   background-color: hsl(0, 100%, 50%) !important;
 }
@@ -78,6 +86,14 @@ a {
 
 .fontsnormalsmall {
   font-size: 0.875rem;
+}
+
+.fontbig {
+  font-size: 2.375rem;
+}
+
+.fontsubtitle {
+  font-size: 1.25rem;
 }
 
 .fontverysmall {

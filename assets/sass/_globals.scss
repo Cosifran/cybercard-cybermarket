@@ -3,6 +3,7 @@
 
 $color-main: hsl(0, 100%, 50%);
 $color-text-sec: rgba(160, 7, 98, 1);
+$color-blue: #00ABD0;
 $color-input: #adb5bd;
 $color-red-secundary: #F7E7E9;
 $color-sec: #EEEEEE;
@@ -10,6 +11,8 @@ $color-nav-cupon: #E7E7E7;
 $bacgraund-main: #F9F9F9;
 $color-gris: #787878;
 $color-secun-gris: #6F6F6F;
+$font-2: 2.375rem;
+$font-3: 1.25rem;
 $font-6: 0.625rem;
 $fon-5: 0.875rem;
 $fon-4: 1.125rem;
@@ -50,6 +53,10 @@ body {
     background-color: $color-sec;
 }
 
+.bgblue{
+    background-color: $color-blue !important;
+}
+
 .grissecundario {
     color: $color-secun-gris;
 }
@@ -74,6 +81,10 @@ a {
     color: $color-text-sec;
 }
 
+.bacgroundpurpura{
+    background-color: $color-text-sec !important;
+}
+
 .bgred {
     background-color: $color-main !important;
 }
@@ -92,6 +103,14 @@ a {
 
 .fontsnormalsmall {
     font-size: $fon-5;
+}
+
+.fontbig{
+    font-size: $font-2;
+}
+
+.fontsubtitle{
+    font-size: $font-3;
 }
 
 .fontverysmall {
