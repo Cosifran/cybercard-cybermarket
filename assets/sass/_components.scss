@@ -61,6 +61,8 @@ body {
   border-color: #FF0000;
 }
 
+//textos cupones
+
 .textocupon{
   font-size: 1.063rem;
   margin-top: 1.125rem !important;
@@ -89,6 +91,16 @@ body {
   margin-top: 1.50rem !important;
   @media (min-width: 768px) {
     font-size: 2rem;
+  }
+}
+
+//text cards precio
+.estilotextoprecio{
+  text-decoration: line-through ;
+  color: #6F6F6F;
+  @media (min-width: 768px){
+    text-decoration: none;
+    color: rgba(160, 7, 98, 1);
   }
 }
 
