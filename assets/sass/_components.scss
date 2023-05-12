@@ -94,7 +94,7 @@ body {
   }
 }
 
-//text cards precio
+//text0 cards precio
 .estilotextoprecio{
   text-decoration: line-through ;
   color: #6F6F6F;
@@ -103,4 +103,14 @@ body {
     color: rgba(160, 7, 98, 1);
   }
 }
+
+//cybermarket texto 
+
+.textcolorcybermarket{
+  color: #FF0000;
+  @media (min-width: 768px){
+    color: #000;
+  }
+}
+
 

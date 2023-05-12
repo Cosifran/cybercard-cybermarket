@@ -241,4 +241,13 @@ body {
   }
 }
 
+.textcolorcybermarket {
+  color: #FF0000;
+}
+@media (min-width: 768px) {
+  .textcolorcybermarket {
+    color: #000;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
