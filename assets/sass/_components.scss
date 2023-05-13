@@ -108,9 +108,34 @@ body {
 
 .textcolorcybermarket{
   color: #FF0000;
-  @media (min-width: 768px){
+  @media (min-width: 1200px){
     color: #000;
   }
 }
 
+//componente descripcion garantia responsive
+.descripcionresponsive{
+  background-color: transparent;
+  @media (min-width: 1200px){
+    background-color: #FF0000;
+    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.textdescripcionresponsive{
+  color: #FF0000;
+  @media (min-width: 1200px){
+    color: white;
+  }
+}
+
+.garantiaresponsive{
+  color: black;
+  background-color: transparent;
+  @media (min-width: 1200px){
+    color: white;
+    background-color: white;
+    filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25));
+  }
+}
 
