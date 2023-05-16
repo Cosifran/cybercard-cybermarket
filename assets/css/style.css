@@ -8,6 +8,10 @@ body {
   color: #adb5bd;
 }
 
+.backgroundmain {
+  background-color: #F9F9F9;
+}
+
 .border-circular {
   border-radius: 100%;
 }
@@ -279,6 +283,18 @@ body {
     background-color: white;
     filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.25));
   }
+}
+
+.activebtncolor:first-child:active {
+  background-color: var(--bs-btn-active-bg);
+  border-color: black;
+  border: 2px solid black;
+}
+
+.activebtntalla:first-child:active {
+  background-color: var(--bs-btn-active-bg);
+  border-color: #FF0000;
+  border: 2px solid #FF0000;
 }
 
 /*# sourceMappingURL=style.css.map */

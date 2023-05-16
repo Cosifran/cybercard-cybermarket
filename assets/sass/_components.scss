@@ -139,3 +139,19 @@ body {
   }
 }
 
+.activebtncolor{
+  &:first-child:active{
+    background-color: var(--bs-btn-active-bg);
+    border-color: black;
+    border: 2px solid black;
+  }
+}
+
+.activebtntalla{
+  &:first-child:active{
+    background-color: var(--bs-btn-active-bg);
+    border-color: #FF0000;
+    border: 2px solid #FF0000;
+  }
+}
+

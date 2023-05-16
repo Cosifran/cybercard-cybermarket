@@ -22,7 +22,7 @@ navigation: {
 });
 
 var swiper = new Swiper(".mySwiperOfertas", {
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 10,
 navigation: {
         nextEl: '.swiper-button-next',
@@ -30,7 +30,7 @@ navigation: {
   },
   breakpoints: {
     768: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     992: {
@@ -102,6 +102,34 @@ navigation: {
 
 var swiper = new Swiper(".btnCategorias", {
   slidesPerView: 2,
+  spaceBetween: 10,
+navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 50,
+    },
+    1400: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  },
+});
+
+//btn tallas
+var swiper = new Swiper(".btnTalla", {
+  slidesPerView: 4,
   spaceBetween: 10,
 navigation: {
         nextEl: '.swiper-button-next',
