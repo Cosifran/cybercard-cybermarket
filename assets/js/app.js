@@ -72,6 +72,7 @@ navigation: {
   },
 });
 
+
 //cupon card
 var swiper = new Swiper(".mySwipercupones", {
   slidesPerView: 1,
@@ -123,6 +124,33 @@ navigation: {
     1400: {
       slidesPerView: 4,
       spaceBetween: 50,
+    },
+  },
+});
+
+var swiper = new Swiper(".btnCategoriasxl", {
+  slidesPerView: 2,
+  spaceBetween: 10,
+navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1200: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1400: {
+      slidesPerView: 2,
+      spaceBetween: 20,
     },
   },
 });
