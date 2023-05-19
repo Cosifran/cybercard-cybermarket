@@ -15,22 +15,23 @@
             <section>
                 <div class="row">
                     <div class="col-12">
-                        <div class="row">
-                            <div class="col-12">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-12 col-12  col-xl-10 col-xxl-9">
+                                <!-- detalle de tu compra -->
                                 <div class="card rounded-4 bg-white shadow-lg">
                                     <div class="card-body">
                                         <h5 class="card-title fw-bold ms-4 mt-3 mb-4">
                                             Detalle de tu compra
                                         </h5>
 
-                                        <div class="row">
-                                            <div class="col-6">
+                                        <div class="row  mx-md-3">
+                                            <div class="col-7 col-md-6 grissecundario">
                                                 <p>Puma - Bolso bandolera</p>
                                                 <p>Gastos de envio</p>
                                                 <p>Cupón de descuento</p>
                                             </div>
 
-                                            <div class="col-6">
+                                            <div class="col-5 col-md-6 text-end">
                                                 <p>COP 00.000</p>
                                                 <p>COP 00.000</p>
                                                 <p>- COP 00.000</p>
@@ -40,75 +41,152 @@
                                                 <hr>
                                             </div>
 
-                                            <div class="col-6">
-                                                <p> Total a pagar</p>                                   
+                                            <div class="col-6 grissecundario">
+                                                <p> TOTAL A PAGAR</p>                                   
                                             </div>
 
-                                            <div class="col-6">
+                                            <div class="col-6 text-end">
                                                 <p class="fontsubtitle">COP 000.000</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
+                                <!-- datos de envios -->
                                 <div class="card rounded-4 bg-white shadow-lg mt-3">
                                     <div class="card-body">
                                         <h5 class="card-title fw-bold ms-4 mt-3 mb-4">
                                             Datos de envio
                                         </h5>
 
-                                        <form class="row">
+                                        <form class="row  mx-md-3 mb-3">
                                             <div class="col-12">
                                                 <label for="inputnombre" class="form-label">Nombre y apellido de quien recibe</label>
-                                                <input type="text" class="form-control rounded-3 mi-input fontsnormalsmall" id="inputnombre" placeholder="Ingresar nombre completo de la persona que recibe">
+                                                <input type="text" class="form-control rounded-3 mi-input inputfoucus fontsnormalsmall" id="inputnombre" placeholder="Ingresar nombre completo de la persona que recibe">
                                             </div>
 
                                             <div class="col-12 mt-3">
                                                 <label for="inputelefono" class="form-label">Teléfono móvil de contacto</label>
-                                                <input type="number" class="form-control rounded-3 mi-input fontsnormalsmall" id="inputelefono" placeholder="Ingresar numero de contacto">
+                                                <input type="number" class="form-control inputfoucus rounded-3 mi-input fontsnormalsmall" id="inputelefono" placeholder="Ingresar numero de contacto">
                                             </div>
 
                                             <div class="col-12 mt-3">
                                                 <label for="inputelefono" class="form-label">Correo Electrónico</label>
-                                                <input type="email" class="form-control rounded-3 mi-input fontsnormalsmall" id="inputelefono" placeholder="Ingresar correo electrónico">
+                                                <input type="email" class="form-control rounded-3 mi-input inputfoucus fontsnormalsmall" id="inputelefono" placeholder="Ingresar correo electrónico">
                                             </div>
 
                                             <div class="col-12 mt-3">
                                                 <label for="inputpais" class="form-label">País</label>
-                                                <select class="form-select rounded-3 colorinput fontsnormalsmall" aria-label="Default select example" id="inputpais">
+                                                <select class="form-select rounded-3 colorinput inputfoucus fontsnormalsmall" aria-label="Default select example" id="inputpais">
                                                     <option selected="">Selecciona uno</option>
                                                 </select>
                                             </div>
 
                                             <div class="col-6 mt-3">
                                                 <label for="inputestado" class="form-label">Estado / Región</label>
-                                                <select class="form-select rounded-3 colorinput fontsnormalsmall" aria-label="Default select example" id="inputestado">
+                                                <select class="form-select rounded-3 colorinput inputfoucus fontsnormalsmall" aria-label="Default select example" id="inputestado">
                                                     <option selected="">Selecciona uno</option>
                                                 </select>
                                             </div>
 
                                             <div class="col-6 mt-3">
                                                 <label for="inputciudad" class="form-label">Ciudad / Provincia</label>
-                                                <select class="form-select rounded-3 colorinput fontsnormalsmall" aria-label="Default select example" id="inputciudad">
+                                                <select class="form-select rounded-3 colorinput inputfoucus fontsnormalsmall" aria-label="Default select example" id="inputciudad">
                                                     <option selected="">Selecciona uno</option>
                                                 </select>
                                             </div>
 
                                             <div class="col-12 mt-3">
                                                 <label for="inputbarrio" class="form-label">Barrio / Localidad / Distrito</label>
-                                                <input type="text" class="form-control rounded-3 mi-input fontsnormalsmall" id="inputbarrio" placeholder="Agregar Barrio, localidad o distrito">
+                                                <input type="text" class="form-control rounded-3 mi-input inputfoucus fontsnormalsmall" id="inputbarrio" placeholder="Agregar Barrio, localidad o distrito">
                                             </div>
 
                                             <div class="col-12 mt-3">
                                                 <label for="inputdireccion" class="form-label">Dirección</label>
-                                                <input type="text" class="form-control rounded-3 mi-input fontsnormalsmall" id="inputdireccion" placeholder="Agregar dirección exacta de la ubicación a donde enviar su compra">
+                                                <input type="text" class="form-control rounded-3 mi-input inputfoucus fontsnormalsmall" id="inputdireccion" placeholder="Agregar dirección exacta de la ubicación a donde enviar su compra">
                                             </div>
 
                                             <div class="col-12 mt-3">
                                                 <label for="inputcasa" class="form-label">¿Es tu casa o trabajo?</label>
-                                                <select class="form-select rounded-3 colorinput fontsnormalsmall" aria-label="Default select example" id="inputcasa">
+                                                <select class="form-select rounded-3 colorinput inputfoucus fontsnormalsmall" aria-label="Default select example" id="inputcasa">
                                                     <option selected="">Casa</option>
                                                 </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                
+                                <!-- metodo de pago -->
+                                <div class="card rounded-4 bg-white shadow-lg mt-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold ms-4 mt-3 mb-4">
+                                            Método de pago
+                                        </h5>
+
+                                        <form class="row  mx-md-3">
+                                            <div class="col-12">
+                                                <label for="inputciudad" class="form-label">¿Cómo desea pagar?</label>
+                                                <select class="form-select rounded-3 colorinput inputfoucus fontsnormalsmall" aria-label="Default select example" id="inputciudad">
+                                                    <option selected="">Tarjeta crédito</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-12 mt-3">
+                                                <div class="row">
+                                                   <div class="col-12">
+                                                    <div class="card border-0">
+                                                        <div class="card-body bgsecundario rounded-4">
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <p>Ingresa los datos de la tarjeta</p>
+                                                                </div>
+            
+                                                                <div class="col-12 col-md-6">
+                                                                    <label for="inputnumerotarj" class="form-label">Numero de tarjeta</label>
+                                                                    <input type="number" class="form-control rounded-3 mi-input inputfoucus fontsnormalsmall" id="inputnumerotarj" placeholder="Ingresa el numero de tarjeta">
+                                                                </div>
+                                                                <div class="col-12 col-md-6">
+                                                                    <label for="inputtitulartarj" class="form-label">Titular de tarjeta</label>
+                                                                    <input type="text" class="form-control rounded-3 mi-input inputfoucus fontsnormalsmall" id="inputtitulartarj" placeholder="Como figura en la tarjeta">
+                                                                </div>
+            
+                                                                <div class="col-6 col-md-3 mt-3">
+                                                                    <label for="inputvenvimientotarj" class="form-label">Vencimiento</label>
+                                                                    <input type="text" class="form-control rounded-3 mi-input inputfoucus fontsnormalsmall" id="inputvenvimientotarj" placeholder="MM/AA">
+                                                                </div>
+                                                                <div class="col-6 col-md-3 mt-3">
+                                                                    <label for="inputcodigosegu" class="form-label">Cod. Seguridad</label>
+                                                                    <input type="number" class="form-control rounded-3 mi-input inputfoucus fontsnormalsmall" id="inputcodigosegu" placeholder="CVV">
+                                                                </div>
+                                                                <div class="col-12 col-md-6 mt-3">
+                                                                    <label for="inputtitulartarj" class="form-label">Documento del titular de la tarjeta</label>
+                                                                    <input type="number" class="form-control rounded-3 mi-input inputfoucus fontsnormalsmall" id="inputtitulartarj" placeholder="Ej.: 1536785425">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                   </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 mt-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input inputfoucus" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        <p class="mb-0">Leí y acepto los <span class="colorprimary fw-medium">términos &amp;
+                                                                condiciones, políticas de
+                                                                privacidad</span> de CyberCard Colombia
+                                                            S.A.S.</p>
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="row justify-content-center mt-3">
+                                                <div class="col-12 d-flex justify-content-center">
+                                                    <button type="button" class="btn bgred text-white mb-3 px-5 fw-bold" data-bs-toggle="modal">
+                                                        Comprar
+                                                    </button>
+                                                </div>
                                             </div>
                                         </form>
                                     </div>
