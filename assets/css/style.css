@@ -238,12 +238,12 @@ body {
   }
 }
 
-.estilotextoprecio {
+.cambiodecolor .estilotextoprecio {
   text-decoration: line-through;
   color: #6F6F6F;
 }
 @media (min-width: 768px) {
-  .estilotextoprecio {
+  .cambiodecolor .estilotextoprecio {
     text-decoration: none;
     color: rgb(160, 7, 98);
   }
