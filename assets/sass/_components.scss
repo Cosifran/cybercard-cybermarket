@@ -7,10 +7,8 @@ body {
 }
 
 body {
-  background: #F9F9F9;
+  background: transparent;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
   margin: 0;
   padding: 0;
 }
@@ -22,7 +20,6 @@ body {
 
 .swiper-slide  {
   text-align: center;
-  font-size: 18px;
   background: transparent;
   display: flex;
   justify-content: center;
@@ -31,8 +28,7 @@ body {
 
 .swiper-slidedos{
   text-align: center;
-  font-size: 18px;
-  background: #F9F9F9;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +67,13 @@ body {
   }
 }
 
+.cambiodecolor{
+  color: white;
+  @media (min-width: 1200px){
+    color: #000;
+  }
+}
+
 .textocuponprecio{
   font-size: 0.688rem;
   margin-top: 1.50rem !important;
@@ -94,8 +97,15 @@ body {
   }
 }
 
+//texto mis compras 
+.textomiscompras{
+  font-size: 0.75rem;
+  @media (min-width: 992px){
+    font-size: 1.125rem;
+  }
+}
+
 //componentes responsivo para puntos cybercard
-.cambiodecolor
 
 //text0 cards precio
 .estilotextoprecio{
@@ -158,3 +168,24 @@ body {
   }
 }
 
+//puntos componentes 
+.barranavegacion{
+  border: none;
+  @media (min-width: 1200px){
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+  }
+}
+
+.borderblwhite{
+  border-color: #F7E7E9 !important;
+  @media (min-width: 1200px){
+    border-color: black !important;
+}
+}
+
+.cambiodebg{
+  background-color: hsl(0, 100%, 50%);
+  @media (min-width: 1200px){
+    background-color: #F7E7E9;
+  }
+}

@@ -8,6 +8,10 @@ body {
   color: #adb5bd;
 }
 
+.quitarcolorenlaces {
+  color: transparent;
+}
+
 .backgroundmain {
   background-color: #F9F9F9;
 }
@@ -52,16 +56,12 @@ body {
   color: #787878;
 }
 
-a {
-  color: transparent !important;
-}
-
 .bacgroundsecundario {
   background-color: #EEEEEE;
 }
 
 .colorprimary {
-  color: hsl(0, 100%, 50%);
+  color: hsl(0, 100%, 50%) !important;
 }
 
 .textcolorpurpura {
@@ -104,6 +104,10 @@ a {
   font-size: 0.75rem;
 }
 
+.fontcard {
+  font-size: 0.938rem;
+}
+
 .t-fs-g {
   font-size: 4rem;
 }
@@ -138,6 +142,10 @@ a {
   border-left: 2px dashed #FF0000;
 }
 
+.boderbutton {
+  border-color: #9e005d !important;
+}
+
 .altodeseparador {
   min-height: 2em;
 }
@@ -149,10 +157,8 @@ body {
 }
 
 body {
-  background: #F9F9F9;
+  background: transparent;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
   margin: 0;
   padding: 0;
 }
@@ -164,7 +170,6 @@ body {
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
   background: transparent;
   display: flex;
   justify-content: center;
@@ -173,8 +178,7 @@ body {
 
 .swiper-slidedos {
   text-align: center;
-  font-size: 18px;
-  background: #F9F9F9;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,6 +213,15 @@ body {
   }
 }
 
+.cambiodecolor {
+  color: white;
+}
+@media (min-width: 1200px) {
+  .cambiodecolor {
+    color: #000;
+  }
+}
+
 .textocuponprecio {
   font-size: 0.688rem;
   margin-top: 1.5rem !important;
@@ -238,12 +251,21 @@ body {
   }
 }
 
-.cambiodecolor .estilotextoprecio {
+.textomiscompras {
+  font-size: 0.75rem;
+}
+@media (min-width: 992px) {
+  .textomiscompras {
+    font-size: 1.125rem;
+  }
+}
+
+.estilotextoprecio {
   text-decoration: line-through;
   color: #6F6F6F;
 }
 @media (min-width: 768px) {
-  .cambiodecolor .estilotextoprecio {
+  .estilotextoprecio {
     text-decoration: none;
     color: rgb(160, 7, 98);
   }
@@ -299,6 +321,33 @@ body {
   background-color: var(--bs-btn-active-bg);
   border-color: #FF0000;
   border: 2px solid #FF0000;
+}
+
+.barranavegacion {
+  border: none;
+}
+@media (min-width: 1200px) {
+  .barranavegacion {
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
+}
+
+.borderblwhite {
+  border-color: #F7E7E9 !important;
+}
+@media (min-width: 1200px) {
+  .borderblwhite {
+    border-color: black !important;
+  }
+}
+
+.cambiodebg {
+  background-color: hsl(0, 100%, 50%);
+}
+@media (min-width: 1200px) {
+  .cambiodebg {
+    background-color: #F7E7E9;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

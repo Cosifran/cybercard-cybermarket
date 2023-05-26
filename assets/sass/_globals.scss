@@ -17,6 +17,7 @@ $font-6: 0.625rem;
 $fon-5: 0.875rem;
 $fon-4: 1.125rem;
 $fon-7: 0.75rem;
+$font-card: 0.938rem;
 
 body {
     font-family: "Roboto", sans-serif !important;
@@ -25,7 +26,9 @@ body {
 .mi-input::-webkit-input-placeholder {
     color: $color-input;
 }
-
+.quitarcolorenlaces{
+    color: transparent;
+}
 .backgroundmain{
     background-color: $bacgraund-main;
 }
@@ -70,16 +73,12 @@ body {
     color: $color-gris;
 }
 
-a {
-    color: transparent !important;
-}
-
 .bacgroundsecundario {
     background-color: $color-sec;
 }
 
 .colorprimary {
-    color: $color-main;
+    color: $color-main !important;
 }
 
 .textcolorpurpura{
@@ -122,6 +121,10 @@ a {
     font-size: $fon-7;
 }
 
+.fontcard{
+    font-size: $font-card;
+}
+
 .t-fs-g {
     font-size: 4rem;
 }
@@ -158,6 +161,10 @@ a {
 //border
 .bordercupon{
     border-left: 2px dashed #FF0000;
+}
+
+.boderbutton{
+    border-color:  #9e005d !important;
 }
 
 .altodeseparador{
