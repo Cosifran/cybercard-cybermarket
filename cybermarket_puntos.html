@@ -25,7 +25,7 @@
                                     role="button" type="button" data-bs-toggle="offcanvas"
                                     data-bs-target="#offcanvasLetf" aria-controls="offcanvasRight"><span><i
                                             class="fa-solid fa-bars" style="color: #3f3f3f;"></i></span></button>
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand" href="./index.html">
                                     <img src="/assets/image/logo.png" alt="Bootstrap" width="87" height="52">
                                 </a>
 
@@ -63,7 +63,8 @@
                                         </li>
                                         <li>
                                             <button class="btn bg-body-white text-black fw-bold fontsnormalsmall "
-                                                role="button" type="button"><span><i
+                                                role="button" type="button" data-bs-toggle="offcanvas"
+                                                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span><i
                                                         class="fa-sharp fa-solid fa-cart-shopping"
                                                         style="color: #3f3f3f;"></i></span></button>
                                         </li>
@@ -74,6 +75,123 @@
                         </nav>
                     </div>
                 </div>
+                <!--offcanva btn compra-->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header bgred">
+                        <h5 class="offcanvas-title my-3" id="offcanvasRightLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex align-items-end px-0 py-0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row mb-5">
+                                        <div class="col-12 mb-5">
+                                            <div class="card border-0 mb-3" style="max-width: 540px;">
+                                                <div class="row g-0">
+                                                    <div class="col-md-4">
+                                                        <img src="./assets/image/img-carrito-compra.png"
+                                                            class="img-fluid rounded-start" alt="...">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="card-body py-1">
+                                                            <h5 class="card-title">Puma</h5>
+                                                            <p class="card-text grissecundario mb-0">Bolso Bandolera</p>
+                                                            <p class="card-text grissecundario mb-0 fw-light">Color:
+                                                                Rojo</p>
+                                                            <p class="card-text grissecundario fw-light">Tamaño: XL</p>
+                                                            <div class="row mb-2">
+                                                                <div class="col-12">
+                                                                    <button type="button"
+                                                                        class="btn border py-1">-</button>
+                                                                    <button type="button"
+                                                                        class="btn border py-1 px-3">1</button>
+                                                                    <button type="button"
+                                                                        class="btn border py-1">+</button>
+                                                                </div>
+                                                            </div>
+
+                                                            <p class="mb-0 colorprimary">COP
+                                                                62.893</p>
+                                                            <p class="mb-0">Afiliado</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <p class="text-center fontsubtitle mt-3">
+                                                            <i class="fa-solid fa-trash colorprimary"></i>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr class="mt-0">
+                                            <div class="card border-0 mb-3" style="max-width: 540px;">
+                                                <div class="row g-0">
+                                                    <div class="col-md-4">
+                                                        <img src="./assets/image/img-carrito-compra.png"
+                                                            class="img-fluid rounded-start" alt="...">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="card-body py-1">
+                                                            <h5 class="card-title">Puma</h5>
+                                                            <p class="card-text grissecundario mb-0">Bolso Bandolera</p>
+                                                            <p class="card-text grissecundario mb-0 fw-light">Color:
+                                                                Rojo</p>
+                                                            <p class="card-text grissecundario fw-light">Tamaño: XL</p>
+                                                            <div class="row mb-2">
+                                                                <div class="col-12">
+                                                                    <button type="button"
+                                                                        class="btn border py-1">-</button>
+                                                                    <button type="button"
+                                                                        class="btn border py-1 px-3">1</button>
+                                                                    <button type="button"
+                                                                        class="btn border py-1">+</button>
+                                                                </div>
+                                                            </div>
+
+                                                            <p class="mb-0 colorprimary">COP
+                                                                62.893</p>
+                                                            <p class="mb-0">Afiliado</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <p class="text-center fontsubtitle mt-3">
+                                                            <i class="fa-solid fa-trash colorprimary"></i>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 mt-5">
+                                            <div class="row mt-5 shadow-lg py-4">
+                                                <div class="col-6">
+                                                    <p>Subtotal</p>
+                                                    <p>Total</p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p class="text-end">COP 62.893</p>
+                                                    <p class="text-end">COP 62.893</p>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <a href="./finalizar-compra.html"
+                                                        class="btn bgred text-white w-100 fw-bold fontsnormalsmall">Comprar</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!--offcanva -->
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLetf"
                     aria-labelledby="offcanvasExampleLabel">
@@ -273,7 +391,9 @@
                                                         style="color: #787878;"></i></p>
                                             </div>
                                             <div class="col-10 col-md-11 ps-0 mt-3">
-                                                <p class="textocuponvalido">Se requiere <span class="colorprimary">170 puntos</span> + <span class="colorprimary">COP 137.279</span> para redimir este producto.
+                                                <p class="textocuponvalido">Se requiere <span class="colorprimary">170
+                                                        puntos</span> + <span class="colorprimary">COP 137.279</span>
+                                                    para redimir este producto.
                                                 </p>
                                             </div>
                                         </div>
@@ -364,144 +484,17 @@
 
                                 <div class="row my-3 d-xl-block d-none mt-3">
                                     <div class="col-12 mt-md-5">
-                                        <a href="./finalizar-compra-cupon.html" class="btn bg-white colorpurpura boderbutton w-100 fw-bold fontsnormalsmall mt-3"
-                                           
-                                            >Redimir Cupón</a>
+                                        <a href="./finalizar-compra-cupon.html"
+                                            class="btn bg-white colorpurpura boderbutton w-100 fw-bold fontsnormalsmall mt-3">Redimir
+                                            Cupón</a>
                                     </div>
                                 </div>
                                 <!--button comprar-->
                                 <div class="row d-xl-block d-none mb-xl-4">
                                     <div class="col-12">
-                                        <!--activa el offcanva-->
-                                        <button href="#" class="btn bgred text-white w-100 fw-bold fontsnormalsmall"
-                                            role="button" type="button" data-bs-toggle="offcanvas"
-                                            data-bs-target="#offcanvasRight"
-                                            aria-controls="offcanvasRight">Redimir Cupón</button>
-                                        <!--offcanva-->
-                                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-                                            aria-labelledby="offcanvasRightLabel">
-                                            <div class="offcanvas-header bgred">
-                                                <h5 class="offcanvas-title my-3" id="offcanvasRightLabel"></h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="offcanvas-body d-flex align-items-end px-0 py-0">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <div class="row mb-5">
-                                                                <div class="col-12 mb-5">
-                                                                    <div class="card border-0 mb-3"
-                                                                        style="max-width: 540px;">
-                                                                        <div class="row g-0">
-                                                                            <div class="col-md-4">
-                                                                                <img src="./assets/image/img-carrito-compra.png"
-                                                                                    class="img-fluid rounded-start"
-                                                                                    alt="...">
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="card-body py-1">
-                                                                                    <h5 class="card-title">Puma</h5>
-                                                                                    <p class="card-text">Bolso Bandolera
-                                                                                    </p>
-                                                                                    <div class="row mb-2">
-                                                                                        <div class="col-12">
-                                                                                            <button type="button"
-                                                                                                class="btn border py-1">-</button>
-                                                                                            <button type="button"
-                                                                                                class="btn border py-1 px-3">1</button>
-                                                                                            <button type="button"
-                                                                                                class="btn border py-1">+</button>
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                    <p class="mb-0 colorprimary">COP
-                                                                                        62.893</p>
-                                                                                    <p class="mb-0">Afiliado</p>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="col-2">
-                                                                                <p
-                                                                                    class="text-center fontsubtitle mt-3">
-                                                                                    <i class="fa-solid fa-trash"
-                                                                                        style="color: #3f3f3f;"></i>
-                                                                                </p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr class="mt-0">
-                                                                    <div class="card border-0 "
-                                                                        style="max-width: 540px;">
-                                                                        <div class="row mb-5 g-0">
-                                                                            <div class="col-md-4">
-                                                                                <img src="./assets/image/img-carrito-compra.png"
-                                                                                    class="img-fluid rounded-start"
-                                                                                    alt="...">
-                                                                            </div>
-                                                                            <div class="col-md-6">
-                                                                                <div class="card-body py-1">
-                                                                                    <h5 class="card-title">Puma</h5>
-                                                                                    <p class="card-text">Bolso Bandolera
-                                                                                    </p>
-                                                                                    <div class="row mb-2">
-                                                                                        <div class="col-12">
-                                                                                            <button type="button"
-                                                                                                class="btn border py-1">-</button>
-                                                                                            <button type="button"
-                                                                                                class="btn border py-1 px-3">1</button>
-                                                                                            <button type="button"
-                                                                                                class="btn border py-1">+</button>
-                                                                                        </div>
-                                                                                    </div>
-
-                                                                                    <p class="mb-0 colorprimary">COP
-                                                                                        62.893</p>
-                                                                                    <p class="mb-0">Afiliado</p>
-                                                                                </div>
-                                                                            </div>
-
-                                                                            <div class="col-2">
-                                                                                <p
-                                                                                    class="text-center fontsubtitle mt-3 mb-5">
-                                                                                    <i class="fa-solid fa-trash"
-                                                                                        style="color: #3f3f3f;"></i>
-                                                                                </p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="row">
-                                                                <div class="col-12 mt-5">
-                                                                    <div class="row mt-5 shadow-lg py-4">
-                                                                        <div class="col-6">
-                                                                            <p>Subtotal</p>
-                                                                            <p>Total</p>
-                                                                        </div>
-                                                                        <div class="col-6">
-                                                                            <p class="text-end">COP 62.893</p>
-                                                                            <p class="text-end">COP 62.893</p>
-                                                                        </div>
-
-                                                                        <div class="col-12">
-                                                                            <button href="#"
-                                                                                class="btn bgred text-white w-100 fw-bold fontsnormalsmall"
-                                                                                role="button" type="button"
-                                                                                data-bs-toggle="offcanvas"
-                                                                                data-bs-target="#offcanvasRight"
-                                                                                aria-controls="offcanvasRight">Comprar</button>
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <a href="./finalizar-compra-puntos.html"
+                                            class="btn bgred text-white w-100 fw-bold fontsnormalsmall">Redimir
+                                            Puntos</a>
                                     </div>
                                 </div>
                             </div>
@@ -647,7 +640,7 @@
                         </div>
                     </div>
 
-                   
+
                 </div>
             </section>
         </main>

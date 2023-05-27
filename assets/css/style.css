@@ -16,6 +16,10 @@ body {
   background-color: #F9F9F9;
 }
 
+.bggriscolorterciario {
+  background-color: #E2E2E2;
+}
+
 .border-circular {
   border-radius: 100%;
 }

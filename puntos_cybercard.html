@@ -15,8 +15,8 @@
     <div class="container">
         <main>
             <section>
-                <!-- nav -->
-                <div class="row justify-content-center">
+                  <!-- nav -->
+                  <div class="row justify-content-center">
                     <div class="col-12 col-lg-11">
                         <nav class="navbar navbar-expand-lg bg-body-white">
                             <div class="container-fluid">
@@ -25,7 +25,7 @@
                                     role="button" type="button" data-bs-toggle="offcanvas"
                                     data-bs-target="#offcanvasLetf" aria-controls="offcanvasRight"><span><i
                                             class="fa-solid fa-bars" style="color: #3f3f3f;"></i></span></button>
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand" href="./index.html">
                                     <img src="/assets/image/logo.png" alt="Bootstrap" width="87" height="52">
                                 </a>
 
@@ -40,8 +40,8 @@
                                     <form class="d-flex me-lg-2 me-xl-5" role="search" style="width: 60%;">
                                         <input class="form-control me-2 inputfoucus" type="search"
                                             placeholder="¿Qué estas buscando?" aria-label="Search">
-                                        <button class="btn btn-outline-danger" type="submit"><span><i
-                                                    class="fa-solid fa-magnifying-glass"></i></span></button>
+                                        <a href="./search.html" class="btn btn-outline-danger" type="submit"><span><i
+                                                    class="fa-solid fa-magnifying-glass"></i></span></a>
                                     </form>
 
                                     <ul class="navbar-nav  mb-2 mb-lg-0 d-flex align-items-end">
@@ -183,6 +183,7 @@
                         </ul>
                     </div>
                 </div>
+
                 <!--body-->
                 <div class="row">
                     <div class="col-12">
@@ -206,31 +207,43 @@
                                                 0
                                             </h5>
                                             <p class="card-text text-center">
-                                                Total acumulados
+                                                Puntos perdidos
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row  justify-content-center pt-3 pb-1">
+                                    <div class="col col-md-4">
+                                        <div class="card py-2">
+                                            <h5 class="card-title text-center">
+                                                0
+                                            </h5>
+                                            <p class="card-text text-center">
+                                                Últimos acumulados
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-4">
+                                        <div class="card py-2">
+                                            <h5 class="card-title text-center">
+                                                0
+                                            </h5>
+                                            <p class="card-text text-center">
+                                                Disponibles
                                             </p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="row  justify-content-center pt-3 pb-4">
-                                    <div class="col col-md-4">
-                                        <div class="card py-2">
-                                            <h5 class="card-title text-center">
-                                                0
-                                            </h5>
-                                            <p class="card-text text-center">
-                                                Total acumulados
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col col-md-4">
-                                        <div class="card py-2">
-                                            <h5 class="card-title text-center">
-                                                0
-                                            </h5>
-                                            <p class="card-text text-center">
-                                                Total acumulados
-                                            </p>
+                                   
+                                    <div class="col col-md-8">
+                                        <div class="card">
+                                            <p class="mb-0 py-4 px-2 text-center"><span class="me-2"><i
+                                                class="fa-sharp fa-solid fa-circle-info"
+                                                style="color: #787878;"></i></span> <span class="colorprimary">0</span> puntos proximos a vencer. Vigentes
+                                        hasta el <span class="colorprimary">20/05/2023</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -250,22 +263,14 @@
 
                         <!-- mis puntos -->
                         <div class="row">
-                            <div class="col-12 col-md-6">
+                            <div class="col-12 col-md-12">
                                 <h1 class="fw-bold fontbig">
                                     Mi puntos
                                 </h1>
                                 <p class="mb-0 fontsubtitle">Encuentra aquí todos los productos que puedes redimir con
                                     tus
                                     puntos</p>
-                            </div>
-                            <div class="col-6 d-none d-md-block d-flex justify-content-center align-items-center">
-                                <div class="card bgredsecundary rounded-2 border-0">
-                                    <p class="mb-0 py-3 px-2"><span class="me-2"><i
-                                                class="fa-sharp fa-solid fa-circle-info"
-                                                style="color: #787878;"></i></span> 0 puntos proximos a vencer. Vigentes
-                                        hasta el <span class="colorprimary">20/05/2023</span></p>
-                                </div>
-                            </div>
+                            </div>      
                         </div>
 
                         <div class="row mt-3">
@@ -313,7 +318,7 @@
                                 <div class="swiper mySwipercupones">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <a href="./cybermarket_product.html" class="quitarcolorenlaces">
+                                            <a href="./cybermarket_puntos.html" class="quitarcolorenlaces">
                                                 <div class="card border rounded-4">
                                                     <img src="./assets/image/img-tarjeta.png" class="card-img-top"
                                                         alt="...">

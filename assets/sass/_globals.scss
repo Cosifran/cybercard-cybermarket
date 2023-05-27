@@ -7,6 +7,7 @@ $color-blue: #00ABD0;
 $color-input: #adb5bd;
 $color-red-secundary: #F7E7E9;
 $color-sec: #EEEEEE;
+$color-gris-terc: #E2E2E2;
 $color-nav-cupon: #E7E7E7;
 $bacgraund-main: #F9F9F9;
 $color-gris: #787878;
@@ -31,6 +32,10 @@ body {
 }
 .backgroundmain{
     background-color: $bacgraund-main;
+}
+
+.bggriscolorterciario{
+    background-color: $color-gris-terc;
 }
 
 .border-circular {
