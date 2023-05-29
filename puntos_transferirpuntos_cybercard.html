@@ -188,7 +188,7 @@
                     <div class="col-12">
                         <!-- estadisticas de tus puntos -->
                         <div class="row">
-                            <div class="col-12 cambiodebg">
+                            <div class="col-12 cambiodebg pb-4">
                                 <div class="row  justify-content-center pt-4">
                                     <div class="col col-md-4">
                                         <div class="card py-2">
@@ -206,20 +206,20 @@
                                                 0
                                             </h5>
                                             <p class="card-text text-center">
-                                                Total acumulados
+                                                Puntos perdidos
                                             </p>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="row  justify-content-center pt-3 pb-4">
+                                <div class="row  justify-content-center pt-3 pb-1">
                                     <div class="col col-md-4">
                                         <div class="card py-2">
                                             <h5 class="card-title text-center">
                                                 0
                                             </h5>
                                             <p class="card-text text-center">
-                                                Total acumulados
+                                                Últimos acumulados
                                             </p>
                                         </div>
                                     </div>
@@ -229,17 +229,19 @@
                                                 0
                                             </h5>
                                             <p class="card-text text-center">
-                                                Total acumulados
+                                                Disponibles
                                             </p>
                                         </div>
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
                         <!-- volver a la pagina anterior-->
                         <div class="row">
                             <div class="col-12">
-                                <a href="">
+                                <a href="" class="quitarcolorenlaces">
                                     <p class="grissubtitulos my-3">
                                         <i class="fa-solid fa-chevron-left" style="color: #787878;"></i>
                                         volver a la pagina anterior
@@ -266,22 +268,25 @@
                                     <div class="swiper-wrapper ">
                                         <div class="swiper-slide">
                                             <div class="card rounded-top-4 fw-bold barranavegacion rounded-0">
-                                                <a href="./puntos_cybercard.html">
+                                                <a href="./puntos_cybercard.html" class="quitarcolorenlaces">
                                                     <p class="m-0 py-2 text-center text-black">Mis premios</p>
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="card rounded-top-4 fw-bold barranavegacion rounded-0">
-                                                <a href="">
+                                                <a href="" class="quitarcolorenlaces">
                                                     <p class="m-0 py-2 text-center text-black">Mis redenciones</p>
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="card descripcionresponsive rounded-top-4  border-danger rounded-0 border-bottom border-0">
-                                                <a href="./puntos_transferirpuntos_cybercard.html">
-                                                    <p class="m-0 textdescripcionresponsive fw-bold  py-2 text-center">Transferir puntos</p>
+                                            <div
+                                                class="card descripcionresponsive rounded-top-4  border-danger rounded-0 border-bottom border-0">
+                                                <a href="./puntos_transferirpuntos_cybercard.html"
+                                                    class="quitarcolorenlaces">
+                                                    <p class="m-0 textdescripcionresponsive fw-bold  py-2 text-center">
+                                                        Transferir puntos</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -296,36 +301,55 @@
                                 <div class="row justify-content-center">
                                     <div class="col-12 col-md-6">
                                         <div class="row">
-                                            <div class="col-6 d-flex align-items-center flex-column">
+                                            <div
+                                                class="col-6 d-flex align-items-lg-center flex-column justify-content-evenly">
                                                 <p>Beneficiarios</p>
-                                                <p class="mb-3 border rounded-3 py-2 w-100 text-center"><span
-                                                        class="">Arturo Serrano</span></p>
-                                                <p class="mb-3 border rounded-3 py-2 w-100 text-center"><span
-                                                        class="">Francisco Herrera</span></p>
-                                                <p class="mb-3 border rounded-3 py-2 w-100 text-center"><span
-                                                        class="">Juan Caicedo</span></p>
+
+                                                <div class="form-check mb-3">
+                                                    <input class="form-check-input inputfoucus" type="radio"
+                                                        name="flexRadioDefault" id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        Arturo Serrano
+                                                    </label>
+                                                </div>
+
+                                                <div class="form-check mb-3">
+                                                    <input class="form-check-input inputfoucus" type="radio"
+                                                        name="flexRadioDefault" id="flexRadioDefault2">
+                                                    <label class="form-check-label" for="flexRadioDefault2">
+                                                        Francisco Herrera
+                                                    </label>
+                                                </div>
+
+                                                <div class="form-check mb-3">
+                                                    <input class="form-check-input inputfoucus" type="radio"
+                                                        name="flexRadioDefault" id="flexRadioDefault3">
+                                                    <label class="form-check-label" for="flexRadioDefault3">
+                                                        Juan Caicedo
+                                                    </label>
+                                                </div>
                                             </div>
                                             <div class="col-6 d-flex align-items-center flex-column">
                                                 <p>Puntos</p>
                                                 <p class="mb-3">
-                                                    <button type="button" class="btn border ">-</button>
-                                                    <button type="button" class="btn border px-4">1</button>
-                                                    <button type="button" class="btn border ">+</button>
+                                                    <input type="number"
+                                                        class="form-control form-control-sm inputfoucus"
+                                                        id="exampleInputPassword1">
                                                 </p>
                                                 <p class="mb-3">
-                                                    <button type="button" class="btn border">-</button>
-                                                    <button type="button" class="btn border px-4">1</button>
-                                                    <button type="button" class="btn border">+</button>
+                                                    <input type="number"
+                                                        class="form-control form-control-sm inputfoucus"
+                                                        id="exampleInputPassword1">
                                                 </p>
                                                 <p class="mb-3">
-                                                    <button type="button" class="btn border">-</button>
-                                                    <button type="button" class="btn border px-4">1</button>
-                                                    <button type="button" class="btn border">+</button>
+                                                    <input type="number"
+                                                        class="form-control form-control-sm inputfoucus"
+                                                        id="exampleInputPassword1">
                                                 </p>
                                             </div>
                                             <div class="col-12 0c.ol-md-11">
                                                 <a href="#" class="btn bgred text-white w-100 fw-bold fontsnormalsmall"
-                                                    role="button"  data-bs-toggle="modal"
+                                                    role="button" data-bs-toggle="modal"
                                                     data-bs-target="#modaldeconfirmacion">Transferir Puntos</a>
 
                                                 <div class="modal fade" id="modaldeconfirmacion" tabindex="-1"
@@ -338,7 +362,9 @@
                                                                         <div class="col-12">
                                                                             <div class="row">
                                                                                 <div class="col-12">
-                                                                                    <p class="fontsubtitle text-center">¿Desea confirmar la transferencia de puntos?</p>
+                                                                                    <p class="fontsubtitle text-center">
+                                                                                        ¿Desea confirmar la
+                                                                                        transferencia de puntos?</p>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="row">
@@ -348,20 +374,24 @@
                                                                                         data-bs-dismiss="modal"
                                                                                         role="button">
                                                                                         <p class="mb-0 text-black">
-                                                                                            <span><i class="fa-solid fa-x" style="color: #ff0000;"></i></span>
-                                                                                                    Cancelar</p>
+                                                                                            <span><i class="fa-solid fa-x"
+                                                                                                    style="color: #ff0000;"></i></span>
+                                                                                            Cancelar
+                                                                                        </p>
                                                                                     </a>
                                                                                 </div>
                                                                                 <div
                                                                                     class="col-6 d-flex justify-content-center">
                                                                                     <a class="btn border"
                                                                                         href="./confirmation_providers.html"
-                                                                                        role="button" data-bs-toggle="modal"
+                                                                                        role="button"
+                                                                                        data-bs-toggle="modal"
                                                                                         data-bs-target="#confirmacion">
                                                                                         <p class="mb-0 text-black">
                                                                                             <span><i class="fa-solid fa-check"
                                                                                                     style="color: #ff0000;"></i></span>
-                                                                                                    Confirmar</p>
+                                                                                            Confirmar
+                                                                                        </p>
                                                                                     </a>
                                                                                 </div>
                                                                             </div>
@@ -383,14 +413,19 @@
                                                                         <div class="col-12">
                                                                             <div class="row">
                                                                                 <div class="col-12">
-                                                                                    <p class=" text-center t-fs-g py-4 pb-2"><i
-                                                                                        class="fa-sharp fa-solid fa-circle-check" style="color: #ff0000;"></i>
-                                                                                </p>
-                                            
-                                                                                <h1 class=" text-center fw-bold fontsubtitle">Transferencia de puntos exitosa</h1>
+                                                                                    <p
+                                                                                        class=" text-center t-fs-g py-4 pb-2">
+                                                                                        <i class="fa-sharp fa-solid fa-circle-check"
+                                                                                            style="color: #ff0000;"></i>
+                                                                                    </p>
+
+                                                                                    <h1
+                                                                                        class=" text-center fw-bold fontsubtitle">
+                                                                                        Transferencia de puntos exitosa
+                                                                                    </h1>
                                                                                 </div>
                                                                             </div>
-                                                                            
+
                                                                         </div>
                                                                     </div>
                                                                 </div>

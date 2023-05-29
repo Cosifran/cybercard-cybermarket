@@ -207,6 +207,15 @@ body {
   border-color: #FF0000;
 }
 
+.responsivetextcuponcompra {
+  font-size: 0.875rem;
+}
+@media (min-width: 992px) {
+  .responsivetextcuponcompra {
+    font-size: 1rem;
+  }
+}
+
 .textocupon {
   font-size: 1.063rem;
   margin-top: 1.125rem !important;
