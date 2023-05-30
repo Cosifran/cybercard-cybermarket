@@ -15,8 +15,8 @@
     <div class="container">
         <main>
             <section>
-                   <!-- nav -->
-                   <div class="row justify-content-center">
+                <!-- nav -->
+                <div class="row justify-content-center">
                     <div class="col-12 col-lg-11">
                         <nav class="navbar navbar-expand-lg bg-body-white">
                             <div class="container-fluid">
@@ -196,7 +196,8 @@
                                             <p class="text-center cambiodecolor">Cupones Asignados</p>
                                         </div>
                                         <div class="col-6 my-5 border-start border-2 borderblwhite">
-                                            <p class="text-center fw-bold textobannercupon cambiodecolor">COP 1.000.000</p>
+                                            <p class="text-center fw-bold textobannercupon cambiodecolor">COP 1.000.000
+                                            </p>
                                             <p class="text-center cambiodecolor">Ahorro obtenido</p>
                                         </div>
                                     </div>
@@ -232,8 +233,7 @@
                                             <div
                                                 class="card descripcionresponsive rounded-top-4  border-danger rounded-0 border-bottom border-0">
                                                 <a href="#">
-                                                    <p
-                                                        class="m-0 textdescripcionresponsive fw-bold  py-2 text-center">
+                                                    <p class="m-0 textdescripcionresponsive fw-bold  py-2 text-center">
                                                         Activos</p>
                                                 </a>
                                             </div>
@@ -273,16 +273,65 @@
                                                 <p class="textocuponvalido">Valido hasta 30/09/2023</p>
                                             </div>
                                         </div>
+                                        <!--btn para abrir el modal ver condiciones-->
                                         <div class="row ">
                                             <div class="col-12">
-                                                <p class="fw-bold colorpurpura">
-                                                    Ver condiciones
-                                                    <span><i class="fa-solid fa-caret-down"
-                                                            style="color: #9e005d;"></i></span>
-                                                </p>
+                                                <a role="button" data-bs-toggle="modal"
+                                                    data-bs-target="#vercondicionesmodal">
+                                                    <p class="fw-bold colorpurpura responsivetextcuponcompra">
+                                                        Ver condiciones
+                                                        <span><i class="fa-solid fa-caret-down"
+                                                                style="color: #9e005d;"></i></span>
+                                                    </p>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- modal ver condiciones -->
+                                    <div class="modal fade" id="vercondicionesmodal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content rounded-4 ">
+                                                <div class="modal-header bgred rounded-4 rounded-bottom">
+                                                    <h5 class="modal-title text-white">Términos y
+                                                        condiciones cupón Moda</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">Cupón
+                                                                        valido hasta 30/05/2023.</li>
+                                                                    <li class="list-group-item">
+                                                                        Aplica solo para productos
+                                                                        seleccionados en la categoría de
+                                                                        puntos y redenciones.
+                                                                    </li>
+                                                                    <li class="list-group-item">
+                                                                        Beneficios no acumulables con
+                                                                        otros descuentos o promociones.
+                                                                    </li>
+                                                                    <li class="list-group-item">El valor
+                                                                        del cupón no podrá ser redimido
+                                                                        en dinero.</li>
+                                                                    <li class="list-group-item">
+                                                                        Cupón valido para un solo uso.
+                                                                    </li>
+                                                                    <li class="list-group-item">
+                                                                        El valor del cupón debe ser
+                                                                        redimido en su totalidad.</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div class="col-3 bordercupon mb-3 positioncupon">
                                         <p class="fw-bold text-center textocuponprecio">COP 100.000</p>
                                         <div class="row">

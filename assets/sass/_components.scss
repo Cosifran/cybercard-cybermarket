@@ -209,3 +209,66 @@ body {
     background-color: #F7E7E9;
   }
 }
+
+//linea de vencido en cupones
+.bonus-free {
+  position: relative;
+  overflow: hidden;
+
+  .free {
+    z-index: 10;
+    width: 335px;
+    height: 32px;
+    padding: 0 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2.1px;
+    box-shadow: 0px 2px 5px #888888;
+    background: #FF0000;
+    border-top: 5px solid #FF0000;
+    border-bottom: 5px solid #FF0000;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(318deg);
+    position: absolute;
+    right: -26%;
+    top: 32%;
+
+    @media(min-width: 1400px) {
+      right: 27% !important;
+      top: 25% !important;
+    }
+
+    @media (min-width: 992px) {
+      right: 17%;
+      top: 25%;
+    }
+
+  }
+}
+
+.free-responsive{
+  z-index: 10;
+  width: 335px;
+  height: 32px;
+  padding: 0 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2.1px;
+  box-shadow: 0px 2px 5px #888888;
+  background: #FF0000;
+  border-top: 5px solid #FF0000;
+  border-bottom: 5px solid #FF0000;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(318deg);
+  position: absolute;
+  right: -90%;
+  top: 32%
+}
