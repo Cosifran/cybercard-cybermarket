@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis compras cybercard</title>
+    <title>puntos cybercard</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -183,29 +183,62 @@
                         </ul>
                     </div>
                 </div>
-
                 <!--body-->
                 <div class="row">
                     <div class="col-12">
-                        <!-- banner estadisticas -->
+                        <!-- estadisticas de tus puntos -->
                         <div class="row">
-                            <div class="col-12 cambiodebg">
-                                <div class="card cambiodebg border-0">
-                                    <div class="row">
-                                        <div class="col-6 my-5">
-                                            <p class="text-center fw-bold textobannercupon cambiodecolor">0</p>
-                                            <p class="text-center cambiodecolor">Compras</p>
-                                        </div>
-                                        <div class="col-6 my-5 border-start border-2 borderblwhite">
-                                            <p class="text-center fw-bold textobannercupon cambiodecolor">COP 1.000.000
+                            <div class="col-12 cambiodebg pb-4">
+                                <div class="row  justify-content-center pt-4">
+                                    <div class="col col-md-4">
+                                        <div class="card py-2">
+                                            <h5 class="card-title text-center">
+                                                0
+                                            </h5>
+                                            <p class="card-text text-center">
+                                                Artículos redimidos
                                             </p>
-                                            <p class="text-center cambiodecolor">Ahorro obtenido</p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-4">
+                                        <div class="card py-2">
+                                            <h5 class="card-title text-center">
+                                                0
+                                            </h5>
+                                            <p class="card-text text-center">
+                                                Puntos transferidos
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="row  justify-content-center pt-3 pb-1">
+                                    <div class="col col-md-4">
+                                        <div class="card py-2">
+                                            <h5 class="card-title text-center">
+                                                0
+                                            </h5>
+                                            <p class="card-text text-center">
+                                                Último redimidos
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-4">
+                                        <div class="card py-2">
+                                            <h5 class="card-title text-center">
+                                                0
+                                            </h5>
+                                            <p class="card-text text-center">
+                                                Total redimidos
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
-                        <!-- volver a la pagina anterior -->
+                        <!-- volver a la pagina anterior-->
                         <div class="row">
                             <div class="col-12">
                                 <a href="" class="quitarcolorenlaces">
@@ -216,13 +249,16 @@
                                 </a>
                             </div>
                         </div>
-                        <!-- mis compras-->
+
+                        <!-- mis puntos -->
                         <div class="row">
                             <div class="col-12 col-lg-10">
-                                <h1 class="fontbig fw-bold">
-                                    Mis compras
+                                <h1 class="fw-bold fontbig">
+                                    Mi puntos
                                 </h1>
-                                <p class="mb-0 fontsubtitle">Encuentra aquí tus compras realizadas</p>
+                                <p class="mb-0 fontsubtitle">Encuentra aquí todos los productos que puedes redimir con
+                                    tus
+                                    puntos</p>
                             </div>
 
                             <div class="col-2 d-flex align-items-center flex-column flex-wrap justify-content-center d-none d-lg-block">
@@ -280,54 +316,132 @@
                             </div>
                         </div>
 
-                        <!-- tarjeta mis compras-->
-                        <div class="row mx-1">
-                            <div class="col-12 col-lg-8">
-                                <div class="row border rounded-4 mt-4">
-                                    <div class="col-4 ps-0">
-                                        <img src="./assets/image/img-cupon.jpg" class="img-fluid" alt="...">
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <div class="swiper slidePuntos">
+                                    <div class="swiper-wrapper ">
+                                        <div class="swiper-slide">
+                                            <div class="card rounded-top-4 fw-bold barranavegacion rounded-0">
+                                                <a href="./puntos_cybercard.html" class="quitarcolorenlaces">
+                                                    <p class="m-0 py-2 text-center text-black">Mis premios</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card descripcionresponsive rounded-top-4  border-danger rounded-0 border-bottom border-0">
+                                                <a href="" class="quitarcolorenlaces">
+                                                    <p class="m-0 textdescripcionresponsive fw-bold  py-2 text-center">Mis redenciones</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div
+                                                class="card rounded-top-4 fw-bold barranavegacion rounded-0 ">
+                                                <a href="./puntos_transferirpuntos_cybercard.html"
+                                                    class="quitarcolorenlaces">
+                                                    <p class="m-0 py-2 text-center text-black ">
+                                                        Transferir puntos</p>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-8">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="row mt-3">
-                                                    <div class="col-6">
-                                                        <p class="fw-bold mb-1 textomiscompras">Puma</p>
-                                                        <p class="grissecundario textomiscompras">Bolso Bandolera</p>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <p class="mb-1 textomiscompras">Orden</p>
-                                                        <p class="colorprimary textomiscompras">#533</p>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row pt-3">
+                            <div class="col-12 mt-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="swiper slidePuntosRedimidos">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="card border rounded-4">
+                                                        <div class="bonus-free">
+                                                            <img src="./assets/image/img-puntos-redimidos.png" class="card-img-top"
+                                                            alt="...">
+                                                            <div class="free-puntos">05/05/2023</div>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="col-10">
+                                                                    <p class="card-title text-start mb-0">
+                                                                        Camisa Manga Larga
+                                                                    </p>
+                                                                    <p class="card-text text-start colorprimary">170
+                                                                         <span class="text-black">Puntos +</span> COP
+                                                                        $137,279</p>
+                                                                </div>
+                                                                <div class="col-2 d-flex justify-content-center align-self-center flex-wrap">
+                                                                    <span class="font-medium"><i class="fa-solid fa-trophy" style="color: #ff0000;"></i></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-
-                                                <div class="row mt-4">
-                                                    <div class="col-6">
-                                                        <p class="fw-bold mb-1 textomiscompras">Fecha de compra</p>
-                                                        <p class="colorprimary textomiscompras">5-9-23 / 9:59 am</p>
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <p class="mb-1 textomiscompras">Valor</p>
-                                                        <p class="colorprimary textomiscompras">COP 54.084</p>
+                                                <div class="swiper-slide">
+                                                    <div class="card border rounded-4">
+                                                        <div class="bonus-free">
+                                                            <img src="./assets/image/img-puntos-redimidos.png" class="card-img-top"
+                                                            alt="...">
+                                                            <div class="free-puntos">05/05/2023</div>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="col-10">
+                                                                    <p class="card-title text-start mb-0">
+                                                                        Camisa Manga Larga
+                                                                    </p>
+                                                                    <p class="card-text text-start colorprimary">170
+                                                                         <span class="text-black">Puntos +</span> COP
+                                                                        $137,279</p>
+                                                                </div>
+                                                                <div class="col-2 d-flex justify-content-center align-self-center flex-wrap">
+                                                                    <span class="font-medium"><i class="fa-solid fa-trophy" style="color: #ff0000;"></i></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <div class="swiper-slide">
+                                                    <div class="card border rounded-4">
+                                                        <div class="bonus-free">
+                                                            <img src="./assets/image/img-puntos-redimidos.png" class="card-img-top"
+                                                            alt="...">
+                                                            <div class="free-puntos">05/05/2023</div>
+                                                        </div>
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="col-10">
+                                                                    <p class="card-title text-start mb-0">
+                                                                        Camisa Manga Larga
+                                                                    </p>
+                                                                    <p class="card-text text-start colorprimary">170
+                                                                         <span class="text-black">Puntos +</span> COP
+                                                                        $137,279</p>
+                                                                </div>
+                                                                <div class="col-2 d-flex justify-content-center align-self-center flex-wrap">
+                                                                    <span class="font-medium"><i class="fa-solid fa-trophy" style="color: #ff0000;"></i></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">Slide 4</div>
+                                                <div class="swiper-slide">Slide 5</div>
+                                                <div class="swiper-slide">Slide 6</div>
+                                                <div class="swiper-slide">Slide 7</div>
+                                                <div class="swiper-slide">Slide 8</div>
+                                                <div class="swiper-slide">Slide 9</div>
                                             </div>
+                                            <div class="swiper-pagination"></div>
                                         </div>
-
-                                        <div class="row mt-3">
-                                            <div class="col-12">
-                                                <a href="#"
-                                                    class="btn bacgroundpurpura text-white w-100 fw-bold fontsnormalsmall mb-2"
-                                                    role="button" data-bs-toggle="button">Estado de compra</a>
-                                            </div>
-                                        </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
         </main>
         <footer>
@@ -350,7 +464,7 @@
                                     <img src="./assets/image/btn-googlepaly.png" class="img-fluid" alt="btnpstore">
                                 </div>
 
-                                <div class="col-6 d-flex justify-content-center">
+                                <div class="col-6 ">
                                     <img src="./assets/image/btn-appstore.png" class="img-fluid" alt="btnapple">
                                 </div>
                             </div>

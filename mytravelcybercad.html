@@ -17,7 +17,7 @@
             <section>
                 <!-- nav -->
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-11">
+                    <div class="col-12 col-lg-12">
                         <nav class="navbar navbar-expand-lg bg-body-white">
                             <div class="container-fluid">
                                 <!--btn para activar offcanva -->
@@ -54,8 +54,8 @@
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link text-black" href="#">
-                                                <p class="mb-0"><span class="me-2"><i class="fa-solid fa-user"
-                                                            style="color: #3f3f3f;"></i></span>Iniciar sesión</p>
+                                                <p class="mb-0 colorprimary"><span class="me-2"><i class="fa-solid fa-user"
+                                                            ></i></span>Iniciar sesión</p>
                                             </a>
                                         </li>
                                         <li>
@@ -64,8 +64,8 @@
                                         <li>
                                             <button class="btn bg-body-white text-black fw-bold fontsnormalsmall "
                                                 role="button" type="button"><span><i
-                                                        class="fa-sharp fa-solid fa-cart-shopping"
-                                                        style="color: #3f3f3f;"></i></span></button>
+                                                        class="fa-sharp fa-solid fa-cart-shopping colorprimary"
+                                                       ></i></span></button>
                                         </li>
                                     </ul>
 
@@ -207,7 +207,7 @@
 
                         <div class="row">
                             <div class="col-12">
-                                <a href="">
+                                <a href="" class="quitarcolorenlaces">
                                     <p class="grissubtitulos my-3">
                                         <i class="fa-solid fa-chevron-left" style="color: #787878;"></i>
                                         volver a la pagina anterior
@@ -217,11 +217,64 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-12 col-lg-10">
                                 <h1 class="fontbig fw-bold">
                                     Mis cupones
                                 </h1>
                                 <p class="mb-0 fontsubtitle">Encuentra aquí todos tus cupones disponibles</p>
+                            </div>
+                            <div class="col-2 d-flex align-items-center flex-column flex-wrap justify-content-center d-none d-lg-block">
+                                <a class="btn border bg-white rounded-3" role="button" data-bs-toggle="modal"
+                                data-bs-target="#collapseFiltro">
+                                    <p class="mb-0 text-black">Filtro <span class="ms-3"><i class="fa-solid fa-filter"
+                                                style="color: #ff0000;"></i></span></p>
+                                </a>
+                            </div>
+
+                            <!-- modal ver fitro -->
+                            <div class="modal fade" id="collapseFiltro" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog  modal-dialog-centered">
+                                    <div class="modal-content rounded-4 ">
+                                        <div class="modal-header bg-white rounded-4 rounded-bottom">
+                                            <h5 class="modal-title text-center">Filtros</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                      <div class="row">
+                                                        <div class="col-6">
+                                                            <label for="tipoCupon" class="form-label">Tipo Cupón</label>
+                                                            <select class="form-select mb-3 fontcard fw-light" id="tipoCupon" aria-label="Default select example">
+                                                                <option selected>Selección</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                              </select>
+                                                              <a class="btn bg-white colorprimary border border-danger w-100 fw-bold fontsnormalsmall" role="button" data-bs-toggle="modal"
+                                                              data-bs-target="#collapseFiltro">Limpiar filtro</a>
+                                                        </div>
+
+                                                        <div class="col-6">
+                                                            <label for="tipoCupon" class="form-label">Categoría</label>
+                                                            <select class="form-select mb-3 fontcard fw-light" id="tipoCupon" aria-label="Default select example">
+                                                                <option selected>Selección</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                              </select>
+                                                              <a href="#" class="btn bgred text-white w-100 fw-bold fontsnormalsmall">Aplicar filtro</a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -232,7 +285,7 @@
                                         <div class="swiper-slide">
                                             <div
                                                 class="card descripcionresponsive rounded-top-4  border-danger rounded-0 border-bottom border-0">
-                                                <a href="#">
+                                                <a href="#" class="quitarcolorenlaces">
                                                     <p class="m-0 textdescripcionresponsive fw-bold  py-2 text-center">
                                                         Activos</p>
                                                 </a>
@@ -240,7 +293,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="card rounded-top-4 fw-bold barranavegacion rounded-0">
-                                                <a href="#">
+                                                <a href="./cupones_redimidos.html" class="quitarcolorenlaces">
                                                     <p class="m-0 py-2 text-center text-black">Redimidos
                                                     </p>
                                                 </a>
@@ -248,7 +301,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="card rounded-top-4 fw-bold barranavegacion rounded-0">
-                                                <a href="#">
+                                                <a href="./cupones_expirados.html" class="quitarcolorenlaces">
                                                     <p class="m-0 py-2 text-center text-black">Expirados
                                                     </p>
                                                 </a>
@@ -260,84 +313,91 @@
                             </div>
                         </div>
 
-                        <div class="row justify-content-center mt-5">
-                            <div class="col-12 col-md-10">
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-12 col-md-10"> 
                                 <div class="row border rounded-4">
-                                    <div class="col-4 ps-0">
-                                        <img src="./assets/image/img-cupon.jpg" class="img-fluid" alt="...">
-                                    </div>
-                                    <div class="col-5 positioncupon">
+                                    <div class="col-12">
                                         <div class="row">
-                                            <div class="col-12">
-                                                <p class="fw-bold textocupon mb-1">Cupón de Moda</p>
-                                                <p class="textocuponvalido">Valido hasta 30/09/2023</p>
+                                            <div class="col-3 ps-0">
+                                                <img src="./assets/image/img-cupon.jpg" class="img-fluid" alt="...">
                                             </div>
-                                        </div>
-                                        <!--btn para abrir el modal ver condiciones-->
-                                        <div class="row ">
-                                            <div class="col-12">
-                                                <a role="button" data-bs-toggle="modal"
-                                                    data-bs-target="#vercondicionesmodal">
-                                                    <p class="fw-bold colorpurpura responsivetextcuponcompra">
-                                                        Ver condiciones
-                                                        <span><i class="fa-solid fa-caret-down"
-                                                                style="color: #9e005d;"></i></span>
-                                                    </p>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- modal ver condiciones -->
-                                    <div class="modal fade" id="vercondicionesmodal" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered">
-                                            <div class="modal-content rounded-4 ">
-                                                <div class="modal-header bgred rounded-4 rounded-bottom">
-                                                    <h5 class="modal-title text-white">Términos y
-                                                        condiciones cupón Moda</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button>
+                                            <div class="col-5 positioncupon">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <p class="fw-bold mb-1 mt-2 textocupon">Cupón de Moda
+                                                        </p>
+                                                        <p class="textocuponvalido ">Valido hasta
+                                                            30/09/2023</p>
+                                                    </div>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col-12">
-                                                                <ul class="list-group list-group-flush">
-                                                                    <li class="list-group-item">Cupón
-                                                                        valido hasta 30/05/2023.</li>
-                                                                    <li class="list-group-item">
-                                                                        Aplica solo para productos
-                                                                        seleccionados en la categoría de
-                                                                        puntos y redenciones.
-                                                                    </li>
-                                                                    <li class="list-group-item">
-                                                                        Beneficios no acumulables con
-                                                                        otros descuentos o promociones.
-                                                                    </li>
-                                                                    <li class="list-group-item">El valor
-                                                                        del cupón no podrá ser redimido
-                                                                        en dinero.</li>
-                                                                    <li class="list-group-item">
-                                                                        Cupón valido para un solo uso.
-                                                                    </li>
-                                                                    <li class="list-group-item">
-                                                                        El valor del cupón debe ser
-                                                                        redimido en su totalidad.</li>
-                                                                </ul>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <a role="button" data-bs-toggle="modal"
+                                                            data-bs-target="#vercondicionesmodal">
+                                                            <p class="fw-bold colorpurpura responsivetextcuponcompra">
+                                                                Ver condiciones
+                                                                <span><i class="fa-solid fa-caret-down"
+                                                                        style="color: #9e005d;"></i></span>
+                                                            </p>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4 bordercupon my-2 positioncupon">
+                                                <p class="fw-bold text-center mb-0 textocuponprecio mt-md-3 mt-2">
+                                                    COP 100.000</p>
+                                                <div class="row">
+                                                    <div class="col-12 mb-2 d-flex justify-content-center">
+                                                        <a class="btn bgred text-white w-75 fw-bold font-medium py-1 py-md-3"
+                                                            href="./puntos_cybercard.html"
+                                                            >Usar</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+        
+                                            <!-- modal ver condiciones -->
+                                            <div class="modal fade" id="vercondicionesmodal" tabindex="-1"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content rounded-4 ">
+                                                        <div class="modal-header bgred rounded-4 rounded-bottom">
+                                                            <h5 class="modal-title text-white">Términos y
+                                                                condiciones cupón Moda</h5>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                                aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <ul class="list-group list-group-flush">
+                                                                            <li class="list-group-item">Cupón
+                                                                                valido hasta 30/05/2023.</li>
+                                                                            <li class="list-group-item">
+                                                                                Aplica solo para productos
+                                                                                seleccionados en la categoría de
+                                                                                puntos y redenciones.
+                                                                            </li>
+                                                                            <li class="list-group-item">
+                                                                                Beneficios no acumulables con
+                                                                                otros descuentos o promociones.
+                                                                            </li>
+                                                                            <li class="list-group-item">El valor
+                                                                                del cupón no podrá ser redimido
+                                                                                en dinero.</li>
+                                                                            <li class="list-group-item">
+                                                                                Cupón valido para un solo uso.
+                                                                            </li>
+                                                                            <li class="list-group-item">
+                                                                                El valor del cupón debe ser
+                                                                                redimido en su totalidad.</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-3 bordercupon mb-3 positioncupon">
-                                        <p class="fw-bold text-center textocuponprecio">COP 100.000</p>
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <a href="./cybermarket_puntos.html"
-                                                    class="btn bgred text-white w-100 fw-bold fontsnormalsmall py-1 py-md-3">Usar</a>
                                             </div>
                                         </div>
                                     </div>

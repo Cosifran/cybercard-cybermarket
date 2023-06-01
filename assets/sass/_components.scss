@@ -67,7 +67,7 @@ body {
 }
 
 .textocupon {
-  font-size: 1.063rem;
+  font-size: 1rem;
   margin-top: 1.125rem !important;
 
   @media (min-width: 992px) {
@@ -84,8 +84,7 @@ body {
 }
 
 .textocuponprecio {
-  font-size: 0.688rem;
-  margin-top: 1.50rem !important;
+  font-size: 0.875rem;
 
   @media (min-width: 992px) {
     font-size: 1.25rem;
@@ -93,10 +92,10 @@ body {
 }
 
 .textocuponvalido {
-  font-size: 0.938rem;
+  font-size: 0.75rem;
 
   @media (min-width: 992px) {
-    font-size: 1.125rem
+    font-size: 1.125rem;
   }
 }
 
@@ -238,21 +237,21 @@ body {
     top: 32%;
 
     @media(min-width: 1400px) {
-      right: 27% !important;
+      right: 5% !important;
       top: 25% !important;
     }
 
     @media (min-width: 992px) {
-      right: 17%;
+      right: -7%;
       top: 25%;
     }
 
   }
 }
 
-.free-responsive{
+.free-puntos{
   z-index: 10;
-  width: 335px;
+  width: 499px;
   height: 32px;
   padding: 0 20px;
   font-size: 14px;
@@ -267,8 +266,8 @@ body {
   border-top: 5px solid #FF0000;
   border-bottom: 5px solid #FF0000;
   -webkit-transform: rotate(35deg);
-  transform: rotate(318deg);
+  transform: rotate(33deg);
   position: absolute;
-  right: -90%;
-  top: 32%
+  right: -25%;
+  top: 32%;
 }
